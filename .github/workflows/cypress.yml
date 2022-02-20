@@ -11,4 +11,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Cypress un
+      - name: Cypress Run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+          config-file: cypress.json
+          wait-on: "http://localhost:3000"
+          wait-on-timeout: 300
+          browser: chrome
+          headless: true
