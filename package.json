@@ -44,6 +44,7 @@
     "@percy/cypress": "^3.1.1",
     "@testing-library/cypress": "^8.0.2",
     "cypress": "^9.3.1",
+    "cypress-log-to-output": "^1.1.2",
     "eslint-plugin-cypress": "^2.12.1"
   }
 }
