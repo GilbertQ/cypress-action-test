@@ -1,0 +1,8 @@
+{
+  "projectId": "3d11md",
+  "experimentalStudio": true,
+  "video": true,
+  "env":{
+  "REACT_AP_MOVIE_API": "fake"
+}
+}
