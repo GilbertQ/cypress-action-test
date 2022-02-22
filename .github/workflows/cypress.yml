@@ -25,4 +25,4 @@ jobs:
         env:
           REACT_APP_MOVIE_API: ${{ secrets.REACT_APP_MOVIE_API }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
